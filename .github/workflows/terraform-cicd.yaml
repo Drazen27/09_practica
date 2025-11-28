@@ -66,7 +66,7 @@ jobs:
         run: terraform validate
 
       - name: Terraform Plan
-        run: terrafrom plan
+        run: terraform plan
 
       - name: Ejecución de Terraform (Apply o Destroy)
         run: |
