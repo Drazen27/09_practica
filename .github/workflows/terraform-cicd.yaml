@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      ENVIROMENT: ${{ github.ref == 'refs/heads/main' && 'prod' || 'dev' }}
+      ENVIRONMENT: ${{ github.ref == 'refs/heads/main' && 'prod' || 'dev' }}
 
     permissions:
       contents: read
