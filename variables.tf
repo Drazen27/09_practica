@@ -13,10 +13,10 @@ variable "common_tags" {
   type        = map(string)
 }
 variable "vnet_name" {
-  description = "vnet_name"
+  description = "vnet name"
   type        = string
 }
 variable "address_space" {
-  description = "value"
+  description = "address space"
   type        = list(string)
 }
