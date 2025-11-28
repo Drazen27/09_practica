@@ -9,7 +9,5 @@ terraform plan -refresh-only -muestra los cambios manuales sin integrarlos al es
 resource "azurerm_resource_group" "terraform_rg" {
   name     = "${var.name}-rg-${terraform.workspace}"
   location = var.location
-  tags = {
-    Project = "Terraform"
-  }
+  tags     = var.common_tags
 }
