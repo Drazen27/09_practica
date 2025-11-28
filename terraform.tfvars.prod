@@ -3,3 +3,5 @@ common_tags = {
   Owner      = "Drazen"
   Enviroment = "prod"
 }
+vnet_name     = "drazen-prod-vnet"
+address_space = ["198.172.0.0/16"]
